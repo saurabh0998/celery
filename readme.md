@@ -70,7 +70,7 @@ redis-server
 
 ### 6. Configure Celery
 
-Ensure the Celery configuration is set correctly in the `scripts/celery_config.py` or directly within `tasks.py`. Update the broker URL if needed:
+Update the broker URL if needed:
 
 ```
 # Example Celery configuration in tasks.py
@@ -110,7 +110,7 @@ celery-assignment/
 ├── scripts/
 │   ├── __init__.py              # Init file for Python package
 │   ├── process_data.py          # Script call Celery tasks
-    ├── load_data.py             # Script to load data and call Celery tasks
+│    ├── load_data.py             # Script to load data and call Celery tasks
 │
 ├── venv/                        # Virtual environment directory
 │
