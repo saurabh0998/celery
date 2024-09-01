@@ -1,0 +1,67 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+celery_assignment_venv_p3/
+
+# Celery worker logs
+celerybeat-schedule
+celerybeat.pid
+*.log
+
+# Redis dump file
+dump.rdb
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# PyCharm project files
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Configurations and secrets
+*.env
+*.secret
+
+# Testing output
+coverage/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.coverage
+*.py,cover
+
+# Documentation build artifacts
+docs/_build/
+
+# mypy type check files
+.mypy_cache/
+
+# Pylint reports
+pylint-report.txt
+
+# Cache files and directories
+*.cache
+*.bak
+*.swp
+*~
+
+# Celery configuration and result backend (optional)
+__celery_data__
