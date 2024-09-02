@@ -109,11 +109,12 @@ celery-assignment/
 │
 ├── scripts/
 │   ├── __init__.py              # Init file for Python package
-│   ├── process_data.py          # Script call Celery tasks
-│    ├── load_data.py             # Script to load data and call Celery tasks
+│   ├── load_data.py             # Script to load data and call Celery tasks
 │
 ├── venv/                        # Virtual environment directory
 │
+├── __init__.py                  # Init file for Python package
+├── process_data.py              # Script call Celery tasks
 ├── tasks.py                     # Celery tasks for processing
 │
 ├── requirements.txt             # Python package dependencies
