@@ -86,7 +86,7 @@ app = Celery('tasks', broker='redis://localhost:6379/0', backend='redis://localh
 Open a terminal, navigate to the project directory, and start the Celery worker:
 
 ```
-celery -A scripts.tasks worker --loglevel=info
+celery -A tasks worker --loglevel=info
 ```
 
 ### 2. Run Data Processing Script
