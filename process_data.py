@@ -1,7 +1,7 @@
 import pandas as pd
 from celery import group
 from tasks import calculate_power_to_weight_ratio
-from load_data import load_and_clean_data
+from scripts.load_data import load_and_clean_data
 
 def process_data(file_path):
     data = load_and_clean_data(file_path)
