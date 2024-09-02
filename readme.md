@@ -94,7 +94,7 @@ celery -A tasks worker --loglevel=info
 In another terminal, run the data processing script to load the data, perform calculations, and output results:
 
 ```
-python scripts/process_data.py
+python process_data.py
 ```
 This script will load the Auto MPG dataset, use Celery to calculate the power-to-weight ratio in parallel, and update the dataset with these results.
 
